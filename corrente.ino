@@ -21,7 +21,7 @@ const int httpsPort = 443;
 
 WiFiClientSecure client; //create a WiFiClientSecure object
 
-//const char *GScriptId = ""; //ID 
+//const char *GScriptId = ""; //ID (included in secrets/secrets.h)
 
 void sendData(float _v_sh, float _i_sh, float _v_bus, float _p_bus);
 
