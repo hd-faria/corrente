@@ -98,8 +98,6 @@ void sendData(float _v_sh, float _i_sh, float _v_bus, float _p_bus){
         return;
     }
 
-    // String s_Temp = String(tem);
-    // String s_Humi = String(hum,DEC);
     // Write to Google Spreadsheet
     String url = String("/macros/s/") + GScriptId + "/exec?v_sh=" + String(_v_sh, 6) + "&i_sh=" + String(_i_sh, 6) + "&v_bus=" + String(_v_bus, 6) + "&p_bus=" + String(_p_bus, 6);
     Serial.print("requesting URL: ");

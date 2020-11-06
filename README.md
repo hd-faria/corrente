@@ -1,5 +1,7 @@
 # INA219
 
+In this repository I hookup an Adafruit INA219 breakout board and a Sparkfun ESP8266 Thing together to log current readings from another project. Here I use the [ArduinoINA219](https://github.com/johngineer/ArduinoINA219) library intead of adafruit's since it has less dependencies and seamed to me easier to use in my quick tests. The data logging to a google spreadsheet is based on this [youtube tutorial from Uteh Str](https://youtu.be/okNECYf2xlY), but somehow I wasn't able to unrar the file in the video description( maybe OS doesn't like rar stuff?? ) so I typed what I could read in the video and made some changes wherever needed. Seems to be working fine.
+
 ## Before Compiling
 
 Create a file ```./secrets/secrets.h``` before trying to compile, as follow:
